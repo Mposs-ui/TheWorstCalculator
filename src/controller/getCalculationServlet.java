@@ -29,6 +29,9 @@ public class getCalculationServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String firstUserNum = request.getParameter("firstUserNum");
+		//The program requests the value from the secondUserNum parameter but there's no
+		//parameter from the index.html page that has the secondUserNum
+		
 		String secondUserNum = request.getParameter("secondUserNum");
 		ABadCalculator userCalculator = new
 		ABadCalculator(Integer.parseInt(firstUserNum), Integer.parseInt(secondUserNum));
