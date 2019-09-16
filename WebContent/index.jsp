@@ -11,6 +11,8 @@
 <form action="getCalculationServlet" method="post">
 Enter a whole number:
 <input type="text" name="firstUserNum" size="10">
+Enter another whole number: 
+<input type="text" name="secondUserNum" size="10">
 <input type="submit" value="Calculate" />
 </form>
 </body>
